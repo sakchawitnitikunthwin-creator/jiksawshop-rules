@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JIKSAWSHOP | Official Rules</title>
+<meta name="description" content="กฎระเบียบและข้อตกลงอย่างเป็นทางการของ JIKSAWSHOP อ่านและตรวจสอบกฎการใช้งานได้ที่นี่">
+<meta name="theme-color" content="#29C8F5">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="JIKSAWSHOP — Official Rules">
+<meta property="og:title" content="JIKSAWSHOP | Official Rules">
+<meta property="og:description" content="กฎระเบียบและข้อตกลงอย่างเป็นทางการของ JIKSAWSHOP อ่านและตรวจสอบกฎการใช้งานได้ที่นี่">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/avatar.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Mitr:wght@400;500;600&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#rules">ข้ามไปยังกฎระเบียบ</a>
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<!-- ════════ NAVIGATION ════════ -->
+<header class="nav" id="nav">
+  <div class="nav__bar">
+    <a class="brand" href="#home" aria-label="JIKSAWSHOP หน้าแรก">
+      <img class="brand__face" src="assets/avatar.webp" width="40" height="40" alt="">
+      <span class="brand__word">JIKSAW<b>SHOP</b></span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="เมนูหลัก">
+      <a href="#home" data-spy="home">Home</a>
+      <a href="#rules" data-spy="rules">กฎระเบียบ</a>
+      <a href="#categories" data-spy="categories">หมวดหมู่กฎ</a>
+      <a href="#faq" data-spy="faq" id="navFaq" hidden>คำถามที่พบบ่อย</a>
+      <a href="#contact" data-spy="contact">ติดต่อร้าน</a>
+    </nav>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="เปิดเมนู">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- ════════ HERO ════════ -->
+<section class="hero" id="home">
+  <div class="hero__sky" aria-hidden="true">
+    <div class="hero__grid" data-depth="0.08"></div>
+    <canvas id="stars"></canvas>
+    <i class="px px--star  p1" data-depth="0.25"></i>
+    <i class="px px--plus  p2" data-depth="0.4"></i>
+    <i class="px px--star  p3" data-depth="0.15"></i>
+    <i class="px px--heart p4" data-depth="0.32"></i>
+    <i class="px px--plus  p5" data-depth="0.2"></i>
+  </div>
+  <div class="wrap hero__inner">
+    <div class="hero__copy">
+      <p class="tag"><span class="tag__dot"></span>OFFICIAL RULES PORTAL</p>
+      <h1 class="hero__title">
+        <span class="hero__brand">JIKSAWSHOP</span>
+        <span class="hero__sub">OFFICIAL RULES</span>
+      </h1>
+      <p class="hero__th">กฎระเบียบและข้อตกลงของทางร้าน</p>
+      <p class="hero__lead">“เพื่อให้การซื้อขายและการอยู่ร่วมกันภายในชุมชน JIKSAWSHOP เป็นไปอย่างเรียบร้อยและปลอดภัย กรุณาอ่านและทำความเข้าใจกฎระเบียบก่อนใช้บริการ”</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#rules">อ่านกฎระเบียบ
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost" href="#announcement">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 2l2.6 6.6L21 11l-6.4 2.4L12 20l-2.6-6.6L3 11l6.4-2.4z"/></svg>ดูประกาศสำคัญ</a>
+      </div>
+    </div>
+    <div class="hero__art">
+      <div class="mascot" id="mascot">
+        <div class="mascot__glow" aria-hidden="true"></div>
+        <figure class="mascot__card">
+          <img src="assets/mascot.webp" srcset="assets/mascot-sm.webp 520w, assets/mascot.webp 1000w" sizes="(max-width: 860px) 260px, 440px" width="1000" height="1000" alt="มาสคอต Jiksaw Shop ผมสีฟ้า ตาดาวสีเหลือง มีเปลวไฟสีเหลืองบนศีรษะ สวมหูฟังและถือจอยเกม" fetchpriority="high">
+        </figure>
+        <span class="mascot__chip" aria-hidden="true">PLAYER 1 ✦ READY</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════ IMPORTANT ANNOUNCEMENT ════════ -->
+<section class="section section--tight" id="announcement" aria-labelledby="annTitle">
+  <div class="wrap">
+    <article class="announce" data-reveal>
+      <div class="announce__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 1.5l3 7.5 7.5 3-7.5 3-3 7.5-3-7.5L1.5 12 9 9z"/></svg>
+      </div>
+      <div class="announce__body">
+        <p class="eyebrow">NOTICE</p>
+        <h2 id="annTitle">ประกาศสำคัญจากทางร้าน</h2>
+        <blockquote id="annText">“ทุกกฎจะพิจารณาการปรับหรือแบนอีกที ถ้าไม่หนักเกินจะไม่ปรับ”</blockquote>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ════════ RULES OVERVIEW ════════ -->
+<section class="section" id="overview" aria-labelledby="ovTitle">
+  <div class="wrap overview">
+    <div class="overview__text" data-reveal>
+      <p class="eyebrow">OVERVIEW</p>
+      <h2 id="ovTitle">ภาพรวมกฎระเบียบ</h2>
+      <p class="muted">กฎระเบียบและข้อบังคับอย่างเป็นทางการของ JIKSAWSHOP ข้อความทุกข้อแสดงตามต้นฉบับของทางร้าน</p>
+      <dl class="stats" id="stats">
+        <div><dt>หมวดหมู่</dt><dd id="statCats">–</dd></div>
+        <div><dt>กฎทั้งหมด</dt><dd id="statRules">–</dd></div>
+        <div><dt>อัปเดตข้อมูล</dt><dd id="statSync" class="stats__sm">–</dd></div>
+      </dl>
+    </div>
+    <figure class="world" data-reveal>
+      <img src="assets/world.webp" srcset="assets/world-sm.webp 800w, assets/world.webp 1600w" sizes="(max-width: 860px) 100vw, 620px" width="1600" height="900" loading="lazy" alt="ห้องเล่นเกมของ Jiksaw Shop ตัวละครจิบินั่งเล่นเกมด้วยกันหน้าจอที่แสดงโลโก้ Jiksaw Shop">
+    </figure>
+  </div>
+</section>
+
+<!-- ════════ RULES CATEGORIES ════════ -->
+<section class="section section--soft" id="categories" aria-labelledby="catTitle">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <p class="eyebrow">SELECT STAGE</p>
+      <h2 id="catTitle">หมวดหมู่กฎ</h2>
+    </div>
+    <div class="cats" id="catGrid"></div>
+  </div>
+</section>
+
+<!-- ════════ COMPLETE RULES LIST + SEARCH ════════ -->
+<section class="section" id="rules" aria-labelledby="rulesTitle">
+  <div class="wrap">
+    <div class="head" data-reveal>
+      <p class="eyebrow">RULE BOOK</p>
+      <h2 id="rulesTitle">กฎระเบียบทั้งหมด</h2>
+    </div>
+
+    <div class="tools">
+      <div class="search" role="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <label class="sr" for="q">ค้นหากฎ</label>
+        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="ค้นหากฎ เช่น ผ่อน, โพสต์, 08:00 หรือเลขข้อ">
+        <button class="search__clear" id="qClear" type="button" aria-label="ล้างคำค้น" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="tools__row">
+        <p class="count" id="count" aria-live="polite"></p>
+        <div class="tools__btns">
+          <button class="mini" id="expandAll" type="button">เปิดทั้งหมด</button>
+          <button class="mini" id="collapseAll" type="button">ปิดทั้งหมด</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="book">
+      <aside class="toc" aria-label="สารบัญหมวดหมู่">
+        <p class="toc__title">สารบัญ</p>
+        <ol id="toc"></ol>
+      </aside>
+      <div class="book__main">
+        <div id="notice" class="notice" hidden></div>
+        <div id="loader" class="loader" hidden><i></i><i></i><i></i><span>กำลังโหลดกฎระเบียบ…</span></div>
+        <div id="ruleList"></div>
+        <div id="empty" class="empty" hidden>
+          <img src="assets/avatar.webp" width="72" height="72" alt="">
+          <p>ไม่พบกฎที่คุณกำลังค้นหา ลองใช้คำค้นอื่นอีกครั้ง</p>
+          <button class="mini" id="emptyClear" type="button">ล้างคำค้น</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════ FAQ (แสดงเมื่อมีข้อมูลใน config เท่านั้น) ════════ -->
+<section class="section section--soft" id="faq" aria-labelledby="faqTitle" hidden>
+  <div class="wrap wrap--narrow">
+    <div class="head">
+      <p class="eyebrow">FAQ</p>
+      <h2 id="faqTitle">คำถามที่พบบ่อย</h2>
+    </div>
+    <div id="faqList" class="faq"></div>
+  </div>
+</section>
+
+<!-- ════════ CONTACT ════════ -->
+<section class="section" id="contact" aria-labelledby="ctTitle">
+  <div class="wrap">
+    <div class="contact" data-reveal>
+      <div class="contact__text">
+        <p class="eyebrow">SUPPORT</p>
+        <h2 id="ctTitle">ติดต่อร้าน</h2>
+        <p>“หากมีข้อสงสัยเกี่ยวกับกฎระเบียบ สามารถติดต่อทีมงาน JIKSAWSHOP ผ่านช่องทางอย่างเป็นทางการ”</p>
+      </div>
+      <ul class="channels" id="channels"></ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ════════ FOOTER ════════ -->
+<footer class="foot">
+  <div class="foot__stars" aria-hidden="true"></div>
+  <div class="wrap foot__inner">
+    <div class="foot__brand">
+      <img src="assets/logo-screen.webp" width="720" height="380" loading="lazy" alt="โลโก้ Jiksaw Shop">
+      <p class="foot__name">JIKSAWSHOP OFFICIAL</p>
+      <p class="foot__thanks">“ขอบคุณที่ให้ความร่วมมือและปฏิบัติตามกฎระเบียบของ JIKSAWSHOP”</p>
+    </div>
+    <nav class="foot__col" aria-label="หมวดกฎ">
+      <p class="foot__h">หมวดกฎ</p>
+      <ul id="footCats"></ul>
+    </nav>
+    <div class="foot__col">
+      <p class="foot__h">ช่องทางติดต่อ</p>
+      <ul id="footContacts"></ul>
+    </div>
+  </div>
+  <p class="foot__copy">© <span id="year">2026</span> JIKSAWSHOP. All rights reserved.</p>
+</footer>
+
+<button class="totop" id="toTop" type="button" aria-label="กลับขึ้นด้านบน" hidden>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/config.js"></script>
+<script src="data/rules.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
